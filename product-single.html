@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Shine Jewellery Rental</title>
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Construction Html5 Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+	<meta name="author" content="Themefisher">
+	<meta name="generator" content="Themefisher Constra HTML Template v1.0">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+	<!-- Themefisher Icon font -->
+	<link rel="stylesheet" href="plugins/themefisher-font/style.css">
+	<!-- bootstrap.min css -->
+	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+
+	<!-- Animate css -->
+	<link rel="stylesheet" href="plugins/animate/animate.css">
+	<!-- Slick Carousel -->
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/slick/slick-theme.css">
+
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<title></title>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js/catalog.js"></script>
+	<script>
+		$(function () {
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+		});
+	</script>
+	<style>
+		@media (min-width: 1200px) {
+			.container {
+				width: 85%;
+			}
+		}
+
+		@media (min-width: 992px) {
+			.container {
+				width: 85%;
+			}
+		}
+
+		@media (min-width: 768px) {
+			.container {
+				width: 85%;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div id="pop"
+		style="position: fixed;top: 0;left: 0;width: 100%; height: 100%;background-color: #000000c7;background-position: center; display: none;color:white;">
+		<span style="position: absolute; top: 0;right: 0;font-size:50px;cursor: pointer;"
+			onclick="de_activate()">&#x2715;</span>
+	</div>
+	<div id="header"></div>
+	<!--Remaining section-->
+
+
+	<section class="page-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="content">
+						<h1 class="page-name">Single Products</h1>
+					</div>
+				</div>
+			</div>
+	</section>
+
+
+	<section class="single-product">
+		<div class="container">
+			<div class="row mt-20">
+				<div class="col-md-5">
+					<div class="single-product-slider">
+						<div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+							<div class='carousel-outer'>
+								<!-- art lab slider -->
+								<div class='carousel-inner '>
+									<div class='item active'>
+										<img id="p-img1" src='images/logo.png' alt='' onclick="activate(1)"
+											style="cursor:zoom-in;" />
+									</div>
+									<div class='item'>
+										<img id="p-img2" src='images/logo.png' alt='' onclick="activate(2)"
+											style="cursor:zoom-in;" />
+									</div>
+									<div class='item'>
+										<img id="p-img3" src='images/logo.png' alt='' onclick="activate(3)"
+											style="cursor:zoom-in;" />
+									</div>
+								</div>
+
+								<!-- sag sol -->
+								<a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+									<i class="tf-ion-ios-arrow-left"></i>
+								</a>
+								<a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+									<i class="tf-ion-ios-arrow-right"></i>
+								</a>
+							</div>
+
+							<!-- thumb -->
+							<ol class='carousel-indicators mCustomScrollbar meartlab' style="text-align: center;">
+								<li data-target='#carousel-custom' data-slide-to='0' class='active'>
+									<img id="p-img11" src='images/logo.png' alt='' />
+								</li>
+								<li data-target='#carousel-custom' data-slide-to='1'>
+									<img id="p-img12" src='images/logo.png' alt='' />
+								</li>
+								<li data-target='#carousel-custom' data-slide-to='2'>
+									<img id="p-img13" src='images/logo.png' alt='' />
+								</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="single-product-details">
+						<h3 id="p_title" style="font-weight:bold">&nbsp;</h3>
+						<div style="display: flex;">
+						  <p>Rental Price:&nbsp;</p>
+						  <p style="color:#5e000d; font-weight:bold"; class="product-price" id="p_price">&nbsp;</p>
+							<p>*</p>
+						</div>
+						<div style="display: flex;">
+						  <p size=8; style="font-style:italic; font-size:12px">*The price is for a 48 hour rental period.
+								<br>
+								More information, including on how to rent
+								<br>
+								this item, can be found in the <u><a href="/faq.html"> FAQs</a></u>.</p>
+						</div>
+						<br>
+						<div style="display: flex;">
+							<p>Security Deposit:&nbsp;</p>
+							<p style="color:#5e000d; font-weight:bold"; class="product-price" id="p_sd">&nbsp;</p>
+						</div>
+						<br>
+						<p class="product-price" id="p_id">
+							&nbsp;
+						</p>
+						<div style="display: flex;">
+							<p class="product-description mt-20" style="font-weight:bold" id="p_desc">
+						</div>
+						 	&nbsp;
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Main jQuery -->
+	<script src="plugins/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap 3.1 -->
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- Bootstrap Touchpin -->
+	<script src="plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+	<!-- Instagram Feed Js -->
+	<script src="plugins/instafeed/instafeed.min.js"></script>
+	<!-- Video Lightbox Plugin -->
+	<script src="plugins/ekko-lightbox/dist/ekko-lightbox.min.js"></script>
+	<!-- Count Down Js -->
+	<script src="plugins/syo-timer/build/jquery.syotimer.min.js"></script>
+
+	<!-- slick Carousel -->
+	<script src="plugins/slick/slick.min.js"></script>
+	<script src="plugins/slick/slick-animation.min.js"></script>
+
+	<!-- Google Mapl -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+	<script type="text/javascript" src="plugins/google-map/gmap.js"></script>
+
+	<!-- Main Js File -->
+	<script src="js/script.js"></script>
+
+
+	<div id="footer"></div>
+	<script type="text/javascript">
+		let searchParams = new URLSearchParams(window.location.search);
+
+		const singleProduct = document.getElementById('single-product')
+
+		let id = searchParams.get('id') || ""
+
+		if (catalog[id]) {
+			document.getElementById("p_title").innerHTML = catalog[id].itemName
+			document.getElementById("p_price").innerHTML = "&#8377;" + catalog[id].price
+			document.getElementById("p_sd").innerHTML = "&#8377;" + catalog[id].sd
+			document.getElementById("p_id").innerHTML = "SKU: SJR" + catalog[id].itemID
+			document.getElementById("p_desc").innerHTML = catalog[id].itemDesc
+
+			document.getElementById('p-img1').src = catalog[id].image[0]
+			document.getElementById('p-img2').src = catalog[id].image[1]
+			document.getElementById('p-img3').src = catalog[id].image[2]
+
+			document.getElementById('p-img11').src = catalog[id].image[0]
+			document.getElementById('p-img12').src = catalog[id].image[1]
+			document.getElementById('p-img13').src = catalog[id].image[2]
+		}
+		function activate(imageId) {
+			console.log(imageId)
+			console.log(`url(${catalog[id].image[imageId - 1]})`)
+			const x = document.getElementById("pop")
+			x.style.zIndex = 1000
+			x.style.display = "block"
+			x.style.backgroundImage = `url(${catalog[id].image[imageId - 1]})`
+			x.style.backgroundRepeat = "no-repeat";
+			x.style.backgroundSize = "contain";
+		}
+		function de_activate() {
+			console.log("called")
+			const x = document.getElementById("pop")
+			x.style.zIndex = 0
+			x.style.display = "none"
+		}
+	</script>
+</body>
+
+</html>
