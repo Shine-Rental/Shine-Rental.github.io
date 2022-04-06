@@ -7,7 +7,7 @@ const catalog = {
         itemName: "Set",
         itemID: "0001",
         itemDesc: "This imitation gold set contains a choker, haaram, vaddanam, a decorative headpiece (tikka), and a pair of both earrings and bajuband with red, pink, and green imitation jewels and pearl accents.",
-        price: 900,
+        price: 1500,
         sd: 4500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
@@ -18,8 +18,8 @@ const catalog = {
         itemName: "Set",
         itemID: "0002",
         itemDesc: "This imitation silver set contains a choker, haaram, a decorative headpiece (tikka), and a pair of earrings with white, red, and green imitation jewels and pearl accents.",
-        price: 720,
-        sd: 3600,
+        price: 1000,
+        sd: 3500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -29,8 +29,8 @@ const catalog = {
         itemName: "Set",
         itemID: "0003",
         itemDesc: "This imitation gold set contains a choker, haaram and mini haaram, a decorative headpiece (tikka), and a pair of earrings with red, pink, and green imitation jewels and pearl accents.",
-        price: 300,
-        sd: 1500,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -40,8 +40,8 @@ const catalog = {
         itemName: "Set",
         itemID: "0004",
         itemDesc: "This imitation gold set contains a haaram, mini haaram, a decorative headpiece (tikka), and a pair of earrings with white, pink, and green imitation jewels and pearl accents.",
-        price: 300,
-        sd: 1500,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -51,7 +51,7 @@ const catalog = {
         itemName: "Set",
         itemID: "0005",
         itemDesc: "This imitation gold set contains a haaram, mini haaram, and a pair of earrings with white, pink, red and green imitation jewels and small coin-shaped gold accents.",
-        price: 400,
+        price: 500,
         sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
@@ -62,7 +62,7 @@ const catalog = {
         itemName: "Set",
         itemID: "0006",
         itemDesc: "This imitation set contains a haaram, mini haaram, and a pair of earrings with white, red, and green imitation jewels and both pearl and small coin-shaped gold accents.",
-        price: 400,
+        price: 500,
         sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
@@ -73,8 +73,8 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0007",
         itemDesc: "This imitation gold necklace set includes a mini haaram and a pair of earrings with white, green, and red imitation jewels with pearl accents.",
-        price: 380,
-        sd: 1900,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -84,8 +84,8 @@ const catalog = {
         itemName: "Haaram",
         itemID: "0008",
         itemDesc: "This imitation gold necklace set includes a haaram and a pair of earrings with primarily white and red imitation jewels with green and small pearl accents.",
-        price: 390,
-        sd: 1950,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -95,8 +95,8 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0009",
         itemDesc: "This imitation gold necklace set includes a mini haaram and a pair of earrings with primarily white and red imitation jewels with pearl accents.",
-        price: 270,
-        sd: 1350,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -106,8 +106,8 @@ const catalog = {
         itemName: "Haaram",
         itemID: "0010",
         itemDesc: "This more modest imitation gold necklace set includes an asymetically designed haaram and a pair of earrings with primarily white and pearl imitation jewels with red, green, and pearl accents.",
-        price: 180,
-        sd: 900,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -117,8 +117,8 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0011",
         itemDesc: "This imitation gold necklace set includes a mini haaram and a pair of earrings with primarily white, green, and red imitation jewels with small pearl accents.",
-        price: 270,
-        sd: 1350,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -128,8 +128,8 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0012",
         itemDesc: "This more modest imitation gold necklace set includes an pendant-styled mini haaram and a pair of bell earrings with white, green, red, and pearl imitation jewels.",
-        price: 150,
-        sd: 750,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -139,8 +139,8 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0013",
         itemDesc: "This imitation gold necklace set includes a mini haaram with red imitation jewels and white flowers, with a pair of bell earrings.",
-        price: 360,
-        sd: 1800,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -150,8 +150,8 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0014",
         itemDesc: "This imitation silver necklace set includes a mini haaram with white and green imitation jewels and a pair of matching earrings.",
-        price: 270,
-        sd: 1350,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -161,8 +161,8 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0015",
         itemDesc: "This imitation gold necklace set includes a mini haaram and a pair of earrings with primarily white and green imitation jewels with pearl accents.",
-        price: 300,
-        sd: 1500,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -172,7 +172,7 @@ const catalog = {
         itemName: "Mini Haaram",
         itemID: "0016",
         itemDesc: "This imitation gold necklace set includes a peacock-inspired mini haaram and a pair of earrings with primarily white and green imitation jewels with pearl accents.",
-        price: 100,
+        price: 250,
         sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
@@ -183,8 +183,8 @@ const catalog = {
         itemName: "Choker",
         itemID: "0017",
         itemDesc: "This imitation gold necklace set includes a choker and a pair of matching earrings with primarily pink, white, and green imitation jewels with pearl accents.",
-        price: 300,
-        sd: 1500,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -194,8 +194,8 @@ const catalog = {
         itemName: "Choker",
         itemID: "0018",
         itemDesc: "This imitation gold necklace set includes a choker with a green centerpiece, and a pair of matching earrings with primarily white, green, and red imitation jewels with pearl accents.",
-        price: 115,
-        sd: 600,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -205,8 +205,8 @@ const catalog = {
         itemName: "Choker",
         itemID: "0019",
         itemDesc: "This imitation gold necklace set includes an imitation gold choker with a red centerpiece and pearl accents, with a pair of matching earrings.",
-        price: 180,
-        sd: 900,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -216,8 +216,8 @@ const catalog = {
         itemName: "Choker",
         itemID: "0020",
         itemDesc: "This imitation gold necklace set includes an imitation gold choker with a gold centerpiece and pink and pearl accents, with a pair of matching bell earrings.",
-        price: 230,
-        sd: 1150,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -227,8 +227,8 @@ const catalog = {
         itemName: "Vaddanam",
         itemID: "0021",
         itemDesc: "This imitation gold vaddanam includes reversible designs and imitation gold pearl accents.",
-        price: 440,
-        sd: 2200,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -238,8 +238,8 @@ const catalog = {
         itemName: "Vaddanam",
         itemID: "0022",
         itemDesc: "This imitation gold vaddanam includes white, red, and green imitation jewels with pearl accents.",
-        price: 420,
-        sd: 2100,
+        price: 500,
+        sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -249,8 +249,8 @@ const catalog = {
         itemName: "Vaddanam",
         itemID: "0023",
         itemDesc: "This is a vaddanam.",
-        price: 75,
-        sd: 375,
+        price: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -260,8 +260,8 @@ const catalog = {
         itemName: "Aravanki",
         itemID: "0024",
         itemDesc: "This imitation gold aravanki includes white, pink, and green imitation jewels with pearl accents.",
-        price: 60,
-        sd: 320,
+        price: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -271,8 +271,8 @@ const catalog = {
         itemName: "Bajuband",
         itemID: "0025",
         itemDesc: "This imitation gold bajuband includes white, green, and red imitation jewels with pearl accents.",
-        price: 150,
-        sd: 1300,
+        price: 250,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -282,8 +282,8 @@ const catalog = {
         itemName: "Jada",
         itemID: "0026",
         itemDesc: "This is a jada.",
-        price: 75,
-        sd: 375,
+        price: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -293,8 +293,8 @@ const catalog = {
         itemName: "Jadagantalu",
         itemID: "0027",
         itemDesc: "This is a jadagantalu.",
-        price: 25,
-        sd: 125,
+        price: 100,
+        sd: 200,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -304,8 +304,8 @@ const catalog = {
         itemName: "Tikka",
         itemID: "0028",
         itemDesc: "This is a decorative headpiece (tikka).",
-        price: 35,
-        sd: 175,
+        price: 100,
+        sd: 200,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
