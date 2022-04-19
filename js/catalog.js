@@ -248,7 +248,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Vaddanam",
         itemID: "2003",
-        itemDesc: "This is a vaddanam.",
+        itemDesc: "This imitation gold vaddanam is in a chain stlye with red and green imitation jewels accents.",
         price: 200,
         sd: 500,
         get image(){
@@ -272,7 +272,7 @@ const catalog = {
         itemID: "2005",
         itemDesc: "This imitation gold bajuband includes white, green, and red imitation jewels with pearl accents.",
         price: 250,
-        sd: 1000,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
