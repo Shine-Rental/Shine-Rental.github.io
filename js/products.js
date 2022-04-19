@@ -11,7 +11,7 @@
         const cats = {}
         products.forEach(ele => cats[ele.cat] = true)
 
-        Object.keys(cats).forEach(ele => {
+       categories.forEach(ele => {
             htmlCode += `<div class="container"><h2>${ele}</h2></div><div class="container" style="display: flex; flex-wrap: wrap; align-content: space-around;" tag="${ele}">`
             console.log("cat: "+ele)
             htmlCode += products.map(product => {
