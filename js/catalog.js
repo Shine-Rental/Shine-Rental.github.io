@@ -1,5 +1,7 @@
 
   var img_string = './images/products/SJR';
+const categories =   ["Sets", "Necklaces","Other Jewellery"];
+
 
 const catalog = {
     "0001": {
