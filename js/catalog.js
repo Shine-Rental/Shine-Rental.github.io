@@ -129,7 +129,7 @@ const catalog = {
         cat: "Necklaces",
         itemName: "Mini Haaram",
         itemID: "1006",
-        itemDesc: "This more modest imitation gold necklace set includes an pendant-styled mini haaram and a pair of bell earrings with white, green, red, and pearl imitation jewels.",
+        itemDesc: "This more modest imitation gold necklace set includes a pendant-styled mini haaram and a pair of bell earrings with white, green, red, and pearl imitation jewels.",
         price: 250,
         sd: 1000,
         get image(){
