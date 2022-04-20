@@ -272,7 +272,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Bajuband",
         itemID: "2005",
-        itemDesc: "This imitation gold bajuband includes white, green, and red imitation jewels with pearl accents.",
+        itemDesc: "This imitation gold bajuband includes white, green, and red imitation jewels with pearl accents. This is rented as a set.",
         price: 250,
         sd: 1000,
         get image(){
@@ -283,7 +283,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Jada",
         itemID: "2006",
-        itemDesc: "This is a jada.",
+        itemDesc: "This is an imitation gold piece with red and green imitation jewels.",
         price: 200,
         sd: 500,
         get image(){
@@ -294,7 +294,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Jadagantalu",
         itemID: "2007",
-        itemDesc: "This is a jadagantalu.",
+        itemDesc: "This is an imitation gold piece hair extension piece with red and green imitation jewels.",
         price: 100,
         sd: 200,
         get image(){
@@ -305,7 +305,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Jadagantalu",
         itemID: "2008",
-        itemDesc: "This is a jadagantalu.",
+        itemDesc: "This is an imitation gold piece hair extension piece with white imitation jewels.",
         price: 100,
         sd: 200,
         get image(){
@@ -316,7 +316,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Jadagantalu",
         itemID: "2009",
-        itemDesc: "This is a jadagantalu.",
+        itemDesc: "This is an imitation gold piece hair extension piece with embossed features.",
         price: 100,
         sd: 200,
         get image(){
@@ -327,7 +327,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2010",
-        itemDesc: "This is a decorative headpiece (tikka).",
+        itemDesc: "This is a decorative headpiece (tikka) in a tear drop shape with red and green imitation jewels.",
         price: 100,
         sd: 200,
         get image(){
@@ -338,7 +338,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2011",
-        itemDesc: "This is a decorative headpiece (tikka).",
+        itemDesc: "This is a decorative headpiece (tikka) with white, green, and red imitation jewels and pearl accents.",
         price: 100,
         sd: 200,
         get image(){
@@ -349,7 +349,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2012",
-        itemDesc: "This is a decorative headpiece (tikka).",
+        itemDesc: "This is a decorative headpiece (tikka) with white and red imitation jewels.",
         price: 100,
         sd: 200,
         get image(){
