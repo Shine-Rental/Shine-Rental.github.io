@@ -261,7 +261,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Aravanki",
         itemID: "2004",
-        itemDesc: "This imitation gold aravanki includes white, pink, and green imitation jewels with pearl accents.",
+        itemDesc: "This imitation gold aravanki includes white, pink, and green imitation jewels with pearl accents. There are two available and the price listed is for the rental of one aravanki.",
         price: 200,
         sd: 500,
         get image(){
@@ -274,7 +274,7 @@ const catalog = {
         itemID: "2005",
         itemDesc: "This imitation gold bajuband includes white, green, and red imitation jewels with pearl accents.",
         price: 250,
-        sd: 500,
+        sd: 1000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
