@@ -8,7 +8,7 @@ const catalog = {
         cat: "Sets",
         itemName: "Set",
         itemID: "0001",
-        itemDesc: "This imitation gold set contains a choker, haaram, vaddanam, a decorative headpiece (tikka), and a pair of both earrings and bajuband with red, pink, and green imitation jewels and pearl accents.",
+        itemDesc: "This imitation gold set contains a choker, haaram, vaddanam, a decorative headpiece (tikka and set of 9 extensions), and a pair of both earrings and bajuband with red, pink, and green imitation jewels and pearl accents.",
         price: 1500,
         sd: 4500,
         get image(){
