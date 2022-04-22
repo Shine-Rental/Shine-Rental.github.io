@@ -107,7 +107,7 @@ const catalog = {
         cat: "Necklaces",
         itemName: "Haaram",
         itemID: "1004",
-        itemDesc: "This more modest imitation gold necklace set includes an asymetically designed haaram and a pair of earrings with primarily white and pearl imitation jewels with green accents.",
+        itemDesc: "This more modest imitation gold necklace set includes an asymetically designed haaram and a pair of earrings with primarily white and pearl imitation jewels.",
         price: 250,
         sd: 1000,
         get image(){
@@ -129,7 +129,7 @@ const catalog = {
         cat: "Necklaces",
         itemName: "Mini Haaram",
         itemID: "1006",
-        itemDesc: "This more modest imitation gold necklace set includes a pendant-styled mini haaram and a pair of bell earrings with white, green, red, and pearl imitation jewels.",
+        itemDesc: "This more modest imitation gold necklace set includes a pendant-styled mini haaram and a pair of bell earrings with white, green, and red imitation jewels.",
         price: 250,
         sd: 1000,
         get image(){
@@ -151,7 +151,7 @@ const catalog = {
         cat: "Necklaces",
         itemName: "Mini Haaram",
         itemID: "1008",
-        itemDesc: "This imitation gold necklace set includes a mini haaram with white and green imitation jewels and a pair of matching bell earrings.",
+        itemDesc: "This imitation gold necklace set includes a mini haaram with red imitation jewels and pearl accents and a pair of matching bell earrings.",
         price: 250,
         sd: 1000,
         get image(){
