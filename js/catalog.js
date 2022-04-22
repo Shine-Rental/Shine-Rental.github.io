@@ -8,7 +8,7 @@ const catalog = {
         cat: "Sets",
         itemName: "Set",
         itemID: "0001",
-        itemDesc: "This imitation gold set contains a choker, haaram, vaddanam, a decorative headpiece (tikka and set of 9 extensions), and a pair of both earrings and bajuband with red, pink, and green imitation jewels and pearl accents.",
+        itemDesc: "This imitation gold set contains a choker, haaram, vaddanam, a decorative headpiece (tikka and set of 9 jadabillalu), and a pair of both earrings and bajuband with red, pink, and green imitation jewels and pearl accents.",
         price: 1500,
         sd: 4500,
         get image(){
@@ -107,7 +107,7 @@ const catalog = {
         cat: "Necklaces",
         itemName: "Haaram",
         itemID: "1004",
-        itemDesc: "This more modest imitation gold necklace set includes an asymetically designed haaram and a pair of earrings with primarily white and pearl imitation jewels with red, green, and pearl accents.",
+        itemDesc: "This more modest imitation gold necklace set includes an asymetically designed haaram and a pair of earrings with primarily white and pearl imitation jewels with green accents.",
         price: 250,
         sd: 1000,
         get image(){
@@ -151,7 +151,7 @@ const catalog = {
         cat: "Necklaces",
         itemName: "Mini Haaram",
         itemID: "1008",
-        itemDesc: "This imitation silver necklace set includes a mini haaram with white and green imitation jewels and a pair of matching earrings.",
+        itemDesc: "This imitation gold necklace set includes a mini haaram with white and green imitation jewels and a pair of matching bell earrings.",
         price: 250,
         sd: 1000,
         get image(){
@@ -162,7 +162,7 @@ const catalog = {
         cat: "Necklaces",
         itemName: "Mini Haaram",
         itemID: "1009",
-        itemDesc: "This imitation gold necklace set includes a mini haaram and a pair of earrings with primarily white and green imitation jewels with pearl accents.",
+        itemDesc: "This imitation gold necklace set includes a mini haaram and a pair of earrings with primarily white and green imitation jewels.",
         price: 500,
         sd: 2000,
         get image(){
@@ -327,7 +327,7 @@ const catalog = {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2010",
-        itemDesc: "This is a decorative headpiece (tikka) in a tear drop shape with red and green imitation jewels.",
+        itemDesc: "This is a decorative headpiece (tikka) in a drop shape with red and green imitation jewels.",
         price: 100,
         sd: 200,
         get image(){
