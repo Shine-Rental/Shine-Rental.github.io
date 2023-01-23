@@ -271,9 +271,9 @@ const catalog = {
     "1019": {
         cat: "Necklaces",
         itemName: "Mini Haaram",
-        itemID: "500",
+        itemID: "1019",
         itemDesc: "This imitation, asymmetric silver necklace set includes a mini haaram and a pair of earrings with delicate purple imitation jewel droplets.",
-        price: 250,
+        price: 500,
         sd: 2000,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
