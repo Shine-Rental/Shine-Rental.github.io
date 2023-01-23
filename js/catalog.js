@@ -224,7 +224,7 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
-  "1015": {
+    "1015": {
         cat: "Necklaces",
         itemName: "Mini Haaram",
         itemID: "1015",
@@ -278,7 +278,7 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-    },
+    },	
     "2001": {
         cat: "Other Jewellery",
         itemName: "Vaddanam",
@@ -356,7 +356,7 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
-      "2008": {
+    "2008": {
         cat: "Other Jewellery",
         itemName: "Jadagantalu",
         itemID: "2008",
@@ -367,7 +367,7 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
-      "2009": {
+    "2009": {
         cat: "Other Jewellery",
         itemName: "Jadagantalu",
         itemID: "2009",
@@ -389,7 +389,7 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
-      "2011": {
+    "2011": {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2011",
@@ -400,7 +400,7 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
-      "2012": {
+    "2012": {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2012",
@@ -411,7 +411,7 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
-  "2013": {
+    "2013": {
         cat: "Other Jewellery",
         itemName: "Vaddanam",
         itemID: "2013",
@@ -421,8 +421,8 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-	},
-"2014": {
+    },
+    "2014": {
         cat: "Other Jewellery",
         itemName: "Aravanki",
         itemID: "2014",
@@ -432,8 +432,8 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-	},
-"2015": {
+    },
+    "2015": {
         cat: "Other Jewellery",
         itemName: "Vaddanam",
         itemID: "2015",
@@ -443,8 +443,8 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-	},
-"2016": {
+    },
+    "2016": {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2016",
@@ -454,8 +454,8 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-	},
-"2017": {
+    },
+    "2017": {
         cat: "Other Jewellery",
         itemName: "Tikka",
         itemID: "2017",
@@ -465,5 +465,5 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-	}
+    }	
 }
