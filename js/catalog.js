@@ -224,6 +224,61 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
+  "1015": {
+        cat: "Necklaces",
+        itemName: "Mini Haaram",
+        itemID: "1015",
+        itemDesc: "This imitation silver necklace set includes a mini haaram and a pair of earrings with primarily white and red imitation jewels.",
+        price: 1500,
+        sd: 4000,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },
+    "1016": {
+        cat: "Necklaces",
+        itemName: "Mini Haaram",
+        itemID: "1016",
+        itemDesc: "This imitation silver necklace set includes a mini haaram and a pair of earrings with primarily white and pink imitation jewels.",
+        price: 500,
+        sd: 2000,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },
+    "1017": {
+        cat: "Necklaces",
+        itemName: "Mini Haaram",
+        itemID: "1017",
+        itemDesc: "This imitation silver necklace set includes a mini haaram and a pair of earrings with imitation diamond jewel droplets.",
+        price: 500,
+        sd: 2000,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },
+    "1018": {
+        cat: "Necklaces",
+        itemName: "Mini Haaram",
+        itemID: "1018",
+        itemDesc: "This imitation silver necklace set includes a geometric themed mini haaram and a pair of earrings with imitation diamond jewel droplets.",
+        price: 1000,
+        sd: 3000,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },
+    "1019": {
+        cat: "Necklaces",
+        itemName: "Mini Haaram",
+        itemID: "500",
+        itemDesc: "This imitation, asymmetric silver necklace set includes a mini haaram and a pair of earrings with delicate purple imitation jewel droplets.",
+        price: 250,
+        sd: 2000,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },
     "2001": {
         cat: "Other Jewellery",
         itemName: "Vaddanam",
@@ -355,5 +410,60 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-    }
+    },
+  "2013": {
+        cat: "Other Jewellery",
+        itemName: "Vaddanam",
+        itemID: "2013",
+        itemDesc: "This imitation gold vaddanam includes a peacock design with white, magenta, and green imitation jewels with pearl accents.",
+        price: 500,
+        sd: 2000,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+	},
+"2014": {
+        cat: "Other Jewellery",
+        itemName: "Aravanki",
+        itemID: "2014",
+        itemDesc: "This imitation gold aravanki includes white and pink imitation jewels with pearl accents. There are two available and the price listed is for the rental of one aravanki.",
+        price: 200,
+        sd: 500,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+	},
+"2015": {
+        cat: "Other Jewellery",
+        itemName: "Vaddanam",
+        itemID: "2015",
+        itemDesc: "This simple imitation diamond vaddanam is in a chain stlye with white imitation jewels.",
+        price: 200,
+        sd: 500,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+	},
+"2016": {
+        cat: "Other Jewellery",
+        itemName: "Tikka",
+        itemID: "2016",
+        itemDesc: "This is a decorative headpiece (tikka) set with white, green, and red imitation jewels with gold bell accents.",
+        price: 200,
+        sd: 500,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+	},
+"2017": {
+        cat: "Other Jewellery",
+        itemName: "Tikka",
+        itemID: "2017",
+        itemDesc: "This is a decorative headpiece (tikka) set with white, magenta, and green imitation jewels.",
+        price: 200,
+        sd: 500,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+	}
 }
