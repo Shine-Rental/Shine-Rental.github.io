@@ -417,7 +417,7 @@ const catalog = {
         itemID: "2010",
         itemDesc: "This is a decorative headpiece (tikka) in a drop shape with red and green imitation jewels.",
         price: 100,
-        sd: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -428,7 +428,7 @@ const catalog = {
         itemID: "2011",
         itemDesc: "This is a decorative headpiece (tikka) with white, green, and red imitation jewels and pearl accents.",
         price: 100,
-        sd: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -439,7 +439,7 @@ const catalog = {
         itemID: "2012",
         itemDesc: "This is a decorative headpiece (tikka) with white and red imitation jewels.",
         price: 100,
-        sd: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -505,7 +505,7 @@ const catalog = {
         itemID: "2018",
         itemDesc: "This is a decorative headpiece (tikka) is set with white imitation jewels, including teardrop design.",
         price: 100,
-        sd: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
@@ -516,7 +516,7 @@ const catalog = {
         itemID: "2019",
         itemDesc: "This is a decorative headpiece (tikka) set with white and magenta imitation jewels and pearl accents.",
         price: 100,
-        sd: 200,
+        sd: 500,
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
