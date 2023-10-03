@@ -70,6 +70,17 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },
+      "0007": {
+        cat: "Sets",
+        itemName: "Set",
+        itemID: "0007",
+        itemDesc: "This imitation gold set contains a haaram, mini haaram, and a pair of earrings with primaily green imitation jewels with both red and pearl accents.",
+        price: 1000,
+        sd: 2500,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },
     "1001": {
         cat: "Necklaces",
         itemName: "Mini Haaram",
@@ -279,6 +290,28 @@ const catalog = {
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
     },	
+      "1020": {
+        cat: "Necklaces",
+        itemName: "Mini Haaram",
+        itemID: "1020",
+        itemDesc: "This imitation silver necklace set includes a mini haaram and a pair of earrings with diamond and teardrop shaped design.",
+        price: 2000,
+        sd: 4500,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },	
+      "1021": {
+        cat: "Necklaces",
+        itemName: "Mini Haaram",
+        itemID: "1021",
+        itemDesc: "This impressive silver necklace set includes a mini haaram and a pair of earrings with swuare, red imitation jewel accents.",
+        price: 2000,
+        sd: 5000,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },	
     "2001": {
         cat: "Other Jewellery",
         itemName: "Vaddanam",
@@ -465,5 +498,27 @@ const catalog = {
         get image(){
           return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
         }
-    }	
+    },	
+      "2018": {
+        cat: "Other Jewellery",
+        itemName: "Tikka",
+        itemID: "2018",
+        itemDesc: "This is a decorative headpiece (tikka) is set with white imitation jewels, including teardrop design.",
+        price: 100,
+        sd: 200,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    },
+      "2019": {
+        cat: "Other Jewellery",
+        itemName: "Tikka",
+        itemID: "2019",
+        itemDesc: "This is a decorative headpiece (tikka) set with white and magenta imitation jewels and pearl accents.",
+        price: 100,
+        sd: 200,
+        get image(){
+          return [img_string + this.itemID + '_1.jpg' , img_string + this.itemID + '_2.jpg',img_string + this.itemID + '_3.jpg']
+        }
+    }
 }
